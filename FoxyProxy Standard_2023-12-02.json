@@ -1,0 +1,61 @@
+{
+  "logging": {
+    "size": 100,
+    "active": false
+  },
+  "mode": "patterns",
+  "v4d2l1701424846182": {
+    "type": 1,
+    "color": "#66cc66",
+    "title": "Burp",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8080,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "HTB",
+        "pattern": "*10.10.10.*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "HTB",
+        "pattern": "*10.10.11.*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "HTB-DHCP",
+        "pattern": "*10.129.*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "HTB domains",
+        "pattern": "*.htb*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "HTB Domains",
+        "pattern": "*.hackthebox*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "browserVersion": "115.5.0",
+  "foxyProxyVersion": "7.5.1",
+  "foxyProxyEdition": "standard"
+}
